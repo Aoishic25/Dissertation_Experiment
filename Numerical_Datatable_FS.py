@@ -54,7 +54,7 @@ def generate_iterative_performance_table():
     
     # FIND THE BEST FEATURES (Peak Accuracy)
     print("\n" + "="*60)
-    print("   PEAK PERFORMANCE SUMMARY (FROM YOUR GRAPH)")
+    print("   PEAK PERFORMANCE SUMMARY   ")
     print("="*60)
     for col in ['Chi2_RF', 'Chi2_DT', 'Pearson_RF', 'Pearson_DT']:
         best_idx = df_results[col].idxmax()
@@ -66,4 +66,5 @@ def generate_iterative_performance_table():
     print(df_results.to_string(index=False))
 
 if __name__ == "__main__":
+
     generate_iterative_performance_table()
