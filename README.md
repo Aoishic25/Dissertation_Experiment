@@ -22,10 +22,10 @@ The experiment involves:
 |------|-------------|
 | `Dataset_DF.py` | Loads and converts raw data into CSV format for processing |
 | `Condensed_permissions.py` | Handles dataset de-duplication and permission condensing |
+| `dataset_Valid.py` | Validates the dataset |
 | `Numerical_Datatable_FS.py` | Prepares numerical datatable for feature selection |
 | `feature_selection.py` | Runs feature selection and outputs importance scores |
 | `feature_selection_Graph.py` | Generates visualisations of feature selection results |
-| `dataset_Valid.py` | Validates the dataset and produces final evaluation graphs |
 | `machine_learning_table.py` | Trains RF and DT models and generates comparison tables |
 
 ### Results & Output Files
