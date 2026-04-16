@@ -8,9 +8,9 @@ This repository contains the full pipeline for my dissertation experiment, cover
 
 The experiment involves:
 1. Preprocessing and cleaning a dataset
-2. Applying feature selection techniques to identify the most informative features
-3. Training and comparing two machine learning models — **Random Forest (RF)** and **Decision Tree (DT)**
-4. Validating results and visualising model performance
+2. Validating results and visualising model performance
+3. Applying feature selection techniques to identify the most informative features
+4. Training and comparing two machine learning models — **Random Forest (RF)** and **Decision Tree (DT)**
 
 ---
 
